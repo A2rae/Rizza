@@ -34,9 +34,10 @@ async def on_ready():
     print("Rizzing " + str(guild_count) + " servers.")
 
 # Welcome message for new members
+# behind ctx.guild.get_channel, put your welcome message channel id in the brackets
 @bot.event
 async def on_member_join(ctx):
-    channel = ctx.guild.get_channel(1119290204025532538)
+    channel = ctx.guild.get_channel()
     embed = discord.Embed(title="Welcome to hell :)" ,description=f"{ctx.mention} just joined the destruction.")
     await channel.send(embed=embed)
 
