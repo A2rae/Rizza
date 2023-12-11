@@ -1,5 +1,5 @@
 # AUTHOR: A2rae #7889 
-# This code is not to be distributed and used anywhere but for this bot.
+# This code is not to be distributed commercially, but is allowed under private use.
 
 # Discord.py module
 import discord
